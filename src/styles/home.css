@@ -1,0 +1,19 @@
+
+#testimonials{
+    mask-image: linear-gradient(to right, transparent, black 450px, black calc(100% - 450px), transparent);
+}
+.testimonial-card{
+    width: 350px;
+    background-color: #f4f4f8;
+    height: 250px;
+    border-radius: 16px;
+    border: 2px solid #f1f0f4;
+    padding: 16px;
+}
+
+.contact{
+    background-image: url("../assets/hero1.jpg");
+    color: white;
+    padding: 150px;
+}
+

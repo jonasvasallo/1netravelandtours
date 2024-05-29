@@ -14,8 +14,13 @@ import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import "../../styles/swiper.css";
 
 import "../../styles/tour.css";
+import "../../styles/home.css";
+
+import iconTop from '../../assets/icons/quote-icon-top.png';
+import iconBottom from '../../assets/icons/quote-icon-bottom.png';
 
 import { useEffect } from "react";
+import Testimonial from "../../components/Testimonial";
 
 function Home() {
   useEffect(() => {
@@ -243,7 +248,7 @@ function Home() {
             </a>
           </div>
         </div>
-        <div className="content flex cross-start main-center">
+        <div className="content flex main-start cross-center col">
           <div className="text-section flex col cross-center main-center">
             <span className="heading-l">TESTIMONIALS</span>
             <span>
@@ -253,20 +258,24 @@ function Home() {
               ipsam odit minima.
             </span>
           </div>
+          <br />
+          <br />
+          <div id="testimonials" className="flex gap16 wrap main-center">
+            <Testimonial message="Exceeded our expectations with innovative designs that brought our vision to life - a truly remarkable and creative agency." name="Saimon B. Bello" date="October 12, 2024"/>
+            <Testimonial message="Exceeded our expectations with innovative designs that brought our vision to life - a truly remarkable and creative agency." name="Saimon B. Bello" date="October 12, 2024"/>
+            <Testimonial message="Exceeded our expectations with innovative designs that brought our vision to life - a truly remarkable and creative agency." name="Saimon B. Bello" date="October 12, 2024"/>
+            <Testimonial message="Exceeded our expectations with innovative designs that brought our vision to life - a truly remarkable and creative agency." name="Saimon B. Bello" date="October 12, 2024"/>
+            <Testimonial message="Exceeded our expectations with innovative designs that brought our vision to life - a truly remarkable and creative agency." name="Saimon B. Bello" date="October 12, 2024"/>
+          </div>
         </div>
-        <div className="content flex cross-center main-between pad16 gap32">
-          <div className="text-section flex col">
-            <span className="heading-l">CONTACT US</span>
-            <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              velit saepe, quas iste, blanditiis deleniti est ipsa eius nemo
-              enim odio eveniet aperiam voluptates soluta molestiae voluptatum
-              ipsam odit minima.
-            </span>
+        <div className="contact content flex col main-center">
+          <div className="flex col">
+            <span className="heading-m">Get in touch with</span>
+            <span className="heading-l">1NE TRAVELS TODAY</span>
+            <br />
+            <span className="subheading-m">Follow us on</span>
           </div>
-          <div className="image-section">
-            <img src={hero1} alt="" />
-          </div>
+          
         </div>
         <footer>
           Copyright © 2022 1NE Travel and Tours. All rights reserved.
