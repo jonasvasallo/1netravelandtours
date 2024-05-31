@@ -135,6 +135,10 @@ body{
   background-color: var(--container);
 }
 
+.textalign-center{
+  text-align: center;
+}
+
 .home{
   scroll-snap-align: start;
   width: 100%;

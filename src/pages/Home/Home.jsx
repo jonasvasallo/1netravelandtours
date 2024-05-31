@@ -88,12 +88,11 @@ function Home() {
         </div>
         <div className="content flex cross-center main-between pad16 gap32 about1">
           <div className="text-section flex col">
-            <span className="heading-l">ABOUT US</span>
-            <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              velit saepe, quas iste, blanditiis deleniti est ipsa eius nemo
-              enim odio eveniet aperiam voluptates soluta molestiae voluptatum
-              ipsam odit minima.
+            <span className="heading-l">TRAVEL MORE, WORRY LESS.</span>
+            <span className="body-l color-major">We are a travel agency that provides diverse travel services to clients all across the country. We specialize in assisting you with all your travel needs, ensuring that your journeys are seamless and memorable. Whether you're planning a family vacation, a romantic getaway, a business trip, or an adventure expedition, our experienced team is dedicated to crafting personalized itineraries tailored to your preferences and budget.</span>
+            <br />
+            <span className="body-l color-major">
+            With years of expertise in the travel industry, our dedicated team of travel enthusiasts is here to guide you every step of the way. From meticulously planned itineraries to personalized travel advice, we tailor each journey to match your unique preferences and needs. Whether you're seeking a relaxing beach getaway, an adventurous mountain trek, or a cultural city tour, we have the knowledge and connections to make it happen.
             </span>
           </div>
           <div className="image-section">
@@ -102,23 +101,18 @@ function Home() {
         </div>
         <div className="content flex cross-center main-end pad16 about2">
           <div className="text-section flex col">
-            <span className="heading-l">ABOUT US</span>
+            <span className="heading-l">At One Travel and Tours, our commitment to high-quality work extends beyond the booking process. </span>
             <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              velit saepe, quas iste, blanditiis deleniti est ipsa eius nemo
-              enim odio eveniet aperiam voluptates soluta molestiae voluptatum
-              ipsam odit minima.
+            We provide timely assistance and support, even while you are on the go. Our dedicated team is always available to address any issues or concerns that may arise during your travels. Whether you need to make last-minute changes to your itinerary, seek recommendations for local attractions, or require emergency assistance, we are just a call or message away.
             </span>
           </div>
         </div>
         <div className="content flex main-start cross-center col main-center">
+        
           <div className="text-section flex col cross-center main-center">
             <span className="heading-l">SERVICES</span>
-            <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              velit saepe, quas iste, blanditiis deleniti est ipsa eius nemo
-              enim odio eveniet aperiam voluptates soluta molestiae voluptatum
-              ipsam odit minima.
+            <span className="body-l color-major textalign-center">
+              Whether you're looking for a relaxing vacation, cultural experiences, or thrilling adventures, our Services section shows how we can make your travel dreams a reality with meticulous planning and personalized attention.
             </span>
           </div>
           <div className="services_container">
@@ -144,25 +138,31 @@ function Home() {
             >
               <SwiperSlide>
                 <img src={hutBackground} alt="" />
-                <span className="heading-s">Service Name</span>
+                <span className="heading-s">INTERNATIONAL & DOMESTIC BOOKING</span>
               </SwiperSlide>
               <SwiperSlide>
                 <img src={hutBackground} alt="" />
+                <span className="heading-s">HOTEL RESERVATION</span>
               </SwiperSlide>
               <SwiperSlide>
                 <img src={hutBackground} alt="" />
+                <span className="heading-s">PASSPORT APPOINTMENT</span>
               </SwiperSlide>
               <SwiperSlide>
                 <img src={hutBackground} alt="" />
+                <span className="heading-s">VISA ASSISTANCE</span>
               </SwiperSlide>
               <SwiperSlide>
                 <img src={hutBackground} alt="" />
+                <span className="heading-s">MICE</span>
               </SwiperSlide>
               <SwiperSlide>
                 <img src={hutBackground} alt="" />
+                <span className="heading-s">JOINERS TOUR</span>
               </SwiperSlide>
               <SwiperSlide>
                 <img src={hutBackground} alt="" />
+                <span className="heading-s">2GO TICKETING</span>
               </SwiperSlide>
 
               <div className="slider-controller">
@@ -178,84 +178,60 @@ function Home() {
         </div>
         <div className="content flex cross-center main-center pad16 about3">
           <div className="text-section flex col cross-center main-center">
-            <span className="heading-l">ABOUT US</span>
+            <span className="heading-l">Our Expertise – We Know Our Stuff!</span>
             <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              velit saepe, quas iste, blanditiis deleniti est ipsa eius nemo
-              enim odio eveniet aperiam voluptates soluta molestiae voluptatum
-              ipsam odit minima.
+            Every member of our team is driven by a deep passion for travel. As enthusiastic travelers ourselves, our consultants bring a wealth of knowledge and over years of combined experience in the destinations they specialize in. This allows us to offer you genuine experiences, the finest guides, and insider tips on hidden gems.
             </span>
           </div>
         </div>
         <div className="content flex col main-start cross-center">
           <div className="text-section flex col cross-center main-center">
             <span className="heading-l">TOUR PACKAGES</span>
-            <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              velit saepe, quas iste, blanditiis deleniti est ipsa eius nemo
-              enim odio eveniet aperiam voluptates soluta molestiae voluptatum
-              ipsam odit minima.
+            <span className="body-l color-major textalign-center">
+               Each package is thoughtfully planned to provide you with unique and immersive experiences, featuring top destinations, expert guides, and seamless itineraries.
             </span>
           </div>
           <div className="flex">
-            <a href="">
-              <div className="tour-card">
+          <div className="tour-card">
                 <div className="tour-image">
                   <img src={hutBackground} alt="" />
                 </div>
                 <div className="intro">
-                  <h1>Package Name</h1>
+                  <h1>Taipei</h1>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea
-                    soluta fuga magnam consequatur, sapiente officiis quis
-                    minima sequi incidunt deserunt dicta, dignissimos, voluptate
-                    ex. Hic ratione assumenda sunt possimus nisi?
+                    Uncover Taipei's vibrant charm: delve into its lively atmosphere, savor delectable cuisine, and witness iconic landmarks on this captivating tour package.
                   </p>
                 </div>
               </div>
-            </a>
-            <a href="">
-              <div className="tour-card">
+            <div className="tour-card">
                 <div className="tour-image">
                   <img src={hutBackground} alt="" />
                 </div>
                 <div className="intro">
-                  <h1>Package Name</h1>
+                  <h1>Shanghai Disneyland</h1>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea
-                    soluta fuga magnam consequatur, sapiente officiis quis
-                    minima sequi incidunt deserunt dicta, dignissimos, voluptate
-                    ex. Hic ratione assumenda sunt possimus nisi?
+                    Embark on an enchanting journey! Experience Disneyland's magic in Shanghai, then immerse yourself in the city's vibrant culture and tantalizing cuisine.
                   </p>
                 </div>
               </div>
-            </a>
-            <a href="">
-              <div className="tour-card">
+            <div className="tour-card">
                 <div className="tour-image">
                   <img src={hutBackground} alt="" />
                 </div>
                 <div className="intro">
-                  <h1>Package Name</h1>
+                  <h1>Korea Spring Festival</h1>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea
-                    soluta fuga magnam consequatur, sapiente officiis quis
-                    minima sequi incidunt deserunt dicta, dignissimos, voluptate
-                    ex. Hic ratione assumenda sunt possimus nisi?
+                    Immerse yourself in the beauty of Korea's cherry blossom season and explore its rich culture and history.
                   </p>
                 </div>
               </div>
-            </a>
           </div>
         </div>
         <div className="content flex main-start cross-center col">
           <div className="text-section flex col cross-center main-center">
             <span className="heading-l">TESTIMONIALS</span>
-            <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              velit saepe, quas iste, blanditiis deleniti est ipsa eius nemo
-              enim odio eveniet aperiam voluptates soluta molestiae voluptatum
-              ipsam odit minima.
+            <span className="body-l color-major textalign-center">
+              Hear what our delighted travelers have to say about their unforgettable journeys with us!
             </span>
           </div>
           <br />
@@ -274,6 +250,7 @@ function Home() {
             <span className="heading-l">1NE TRAVELS TODAY</span>
             <br />
             <span className="subheading-m">Follow us on</span>
+            <a href="https://www.facebook.com/1netravelandtours"><img alt="Facebook" style={{width: "32px", height:"32px", objectfit: "cover"}} fetchpriority="high" src="https://static.wixstatic.com/media/11062b_f4e3e7f537ff4762a1914aa14e3e36b9~mv2.png/v1/fill/w_32,h_32,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_f4e3e7f537ff4762a1914aa14e3e36b9~mv2.png"/></a>
           </div>
           
         </div>
