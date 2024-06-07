@@ -275,10 +275,12 @@ body{
 
 .about3{
   border-radius: 16px;
-  background-image: url("./assets/hero1.jpg");
+  background-image: url("./assets/img/1neteam.jpeg");
   background-position: center;
   background-size: cover;
   color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 
 .navigation-manual{

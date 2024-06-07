@@ -17,7 +17,7 @@ const Testimonial = (props) => {
         </div>
         </div>
         <div className="testimonial-footer flex gap16">
-        <img src={hutBackground} alt="" height={40} width={40}/>
+        <img src={props.image} alt="" height={40} width={40}/>
         <div className="flex col">
             <span className="subheading-m color-major">{props.name.toString().toUpperCase()}</span>
             <span className="body-m color-minor">{props.date.toString().toUpperCase()}</span>

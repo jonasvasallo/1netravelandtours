@@ -19,6 +19,24 @@ import "../../styles/home.css";
 import iconTop from '../../assets/icons/quote-icon-top.png';
 import iconBottom from '../../assets/icons/quote-icon-bottom.png';
 
+import suitcase from '../../assets/img/suitcase.jpg';
+import tourist from '../../assets/img/tourist.jpg';
+
+import booking from '../../assets/img/booking.jpg';
+import hotelReservation from '../../assets/img/hotel-reservation.jpg';
+import passportAppointment from '../../assets/img/passport-appointment.jpg';
+import visa from  '../../assets/img/visa.jpg';
+import mice from '../../assets/img/mice.jpg';
+import joiners from '../../assets/img/joiners.jpg';
+import togo from '../../assets/img/2g0.jpg';
+
+import taipei from '../../assets/img/taipei.jpg';
+import shanghai from '../../assets/img/shanghai.jpg';
+import korea from '../../assets/img/korea-spring-festival.jpg';
+
+import malepic from '../../assets/img/malepic.jpeg';
+import femalepic from '../../assets/img/femalepic.jpeg';
+
 import { useEffect } from "react";
 import Testimonial from "../../components/Testimonial";
 
@@ -60,7 +78,7 @@ function Home() {
               Travel the world, one adventure at a time
             </p>
             <br />
-            <button className="home-content hidden">
+            <button className="home-content hidden" onClick={() => window.location.href="https://web.facebook.com/1netravelandtours"}>
               Start Your Journey Now
             </button>
           </div>
@@ -96,7 +114,7 @@ function Home() {
             </span>
           </div>
           <div className="image-section">
-            <img src={hero1} alt="" />
+            <img src={suitcase} alt="" />
           </div>
         </div>
         <div className="content flex cross-center main-end pad16 about2">
@@ -137,41 +155,41 @@ function Home() {
               className="swiper_container"
             >
               <SwiperSlide>
-                <img src={hutBackground} alt="" />
+                <img src={booking} alt="" />
                 <span className="heading-s">INTERNATIONAL & DOMESTIC BOOKING</span>
               </SwiperSlide>
               <SwiperSlide>
-                <img src={hutBackground} alt="" />
+                <img src={hotelReservation} alt="" />
                 <span className="heading-s">HOTEL RESERVATION</span>
               </SwiperSlide>
               <SwiperSlide>
-                <img src={hutBackground} alt="" />
+                <img src={passportAppointment} alt="" />
                 <span className="heading-s">PASSPORT APPOINTMENT</span>
               </SwiperSlide>
               <SwiperSlide>
-                <img src={hutBackground} alt="" />
+                <img src={visa} alt="" />
                 <span className="heading-s">VISA ASSISTANCE</span>
               </SwiperSlide>
               <SwiperSlide>
-                <img src={hutBackground} alt="" />
+                <img src={mice} alt="" />
                 <span className="heading-s">MICE</span>
               </SwiperSlide>
               <SwiperSlide>
-                <img src={hutBackground} alt="" />
+                <img src={joiners} alt="" />
                 <span className="heading-s">JOINERS TOUR</span>
               </SwiperSlide>
               <SwiperSlide>
-                <img src={hutBackground} alt="" />
+                <img src={togo} alt="" />
                 <span className="heading-s">2GO TICKETING</span>
               </SwiperSlide>
 
               <div className="slider-controller">
-                <div className="swiper-button-prev slider-arrow">
+                {/* <div className="swiper-button-prev slider-arrow">
                   <ion-icon name="arrow-back-outline"></ion-icon>
                 </div>
                 <div className="swiper-button-next slider-arrow">
                   <ion-icon name="arrow-forward-outline"></ion-icon>
-                </div>
+                </div> */}
               </div>
             </Swiper>
           </div>
@@ -194,7 +212,7 @@ function Home() {
           <div className="flex">
           <div className="tour-card">
                 <div className="tour-image">
-                  <img src={hutBackground} alt="" />
+                  <img src={taipei} alt="" />
                 </div>
                 <div className="intro">
                   <h1>Taipei</h1>
@@ -205,7 +223,7 @@ function Home() {
               </div>
             <div className="tour-card">
                 <div className="tour-image">
-                  <img src={hutBackground} alt="" />
+                  <img src={shanghai} alt="" />
                 </div>
                 <div className="intro">
                   <h1>Shanghai Disneyland</h1>
@@ -216,7 +234,7 @@ function Home() {
               </div>
             <div className="tour-card">
                 <div className="tour-image">
-                  <img src={hutBackground} alt="" />
+                  <img src={korea} alt="" />
                 </div>
                 <div className="intro">
                   <h1>Korea Spring Festival</h1>
@@ -237,11 +255,11 @@ function Home() {
           <br />
           <br />
           <div id="testimonials" className="flex gap16 wrap main-center">
-            <Testimonial message="Exceeded our expectations with innovative designs that brought our vision to life - a truly remarkable and creative agency." name="Saimon B. Bello" date="October 12, 2024"/>
-            <Testimonial message="Exceeded our expectations with innovative designs that brought our vision to life - a truly remarkable and creative agency." name="Saimon B. Bello" date="October 12, 2024"/>
-            <Testimonial message="Exceeded our expectations with innovative designs that brought our vision to life - a truly remarkable and creative agency." name="Saimon B. Bello" date="October 12, 2024"/>
-            <Testimonial message="Exceeded our expectations with innovative designs that brought our vision to life - a truly remarkable and creative agency." name="Saimon B. Bello" date="October 12, 2024"/>
-            <Testimonial message="Exceeded our expectations with innovative designs that brought our vision to life - a truly remarkable and creative agency." name="Saimon B. Bello" date="October 12, 2024"/>
+            <Testimonial message="Booking our honeymoon through 1ne Travel and Tours was perfect! They handled every detail, letting us fully enjoy our trip. Highly recommend for stress-free travel!" name="Emily R." date="April 15, 2023" image={femalepic}/>
+            <Testimonial message="1ne Travel and Tours exceeded our expectations. Their attention to detail made our family vacation unforgettable. We can’t wait to book our next adventure with them!" name="Michael P." date="February 22, 2024" image={malepic}/>
+            <Testimonial message="I've used 1ne Travel and Tours for multiple trips and they never disappoint. The team is incredibly knowledgeable and always goes the extra mile. Simply the best!" name="Sarah L." date="June 10, 2023" image={femalepic}/>
+            <Testimonial message="1ne Travel and Tours made my dream of exploring Europe come true! Their expert planning turned my trip into an incredible journey. Thank you, 1ne Travel and Tours!" name="Raj S." date="August 5, 2023" image={malepic}/>
+            <Testimonial message="Traveling with 1ne Travel and Tours was a delight. Their team handled everything with care and efficiency. Can't wait to travel with them again!" name="Paula G." date="October 29, 2023" image={femalepic}/>
           </div>
         </div>
         <div className="contact content flex col main-center">

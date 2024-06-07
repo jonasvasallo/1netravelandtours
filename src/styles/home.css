@@ -11,6 +11,10 @@
     padding: 16px;
 }
 
+.testimonial-card .testimonial-footer img{
+    object-fit: cover;
+}
+
 .contact{
     background-image: url("../assets/hero1.jpg");
     color: white;
