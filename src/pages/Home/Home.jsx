@@ -125,7 +125,7 @@ function Home() {
             </span>
           </div>
         </div>
-        <div className="content flex main-start cross-center col main-center">
+        <div id="services" className="content flex main-start cross-center col main-center">
         
           <div className="text-section flex col cross-center main-center">
             <span className="heading-l">SERVICES</span>
@@ -272,9 +272,7 @@ function Home() {
           </div>
           
         </div>
-        <footer>
-          Copyright © 2022 1NE Travel and Tours. All rights reserved.
-        </footer>
+        
       </div>
     </>
   );
