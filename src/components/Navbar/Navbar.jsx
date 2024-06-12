@@ -14,7 +14,7 @@ function Navbar(){
                     <li>
                         <Link to={"/"}>Home</Link>
                         <Link to={"/about"}>About</Link>
-                        <Link to={"/packages"}>Tour Packages</Link>
+                        <Link to={"/tour-packages"}>Tour Packages</Link>
                         <Link to={"/contact"}>Contact Us</Link>
                     </li>
                 </ul>
