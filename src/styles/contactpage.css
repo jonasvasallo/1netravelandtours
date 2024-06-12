@@ -1,0 +1,14 @@
+.contact-us{
+    min-height: 100vh;
+    background-image: url('/public/img/nesabel.JPG');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 16px;
+    padding-top: 100px;
+}

@@ -6,6 +6,7 @@ import { Route, Routes } from "react-router-dom";
 import AboutPage from "./pages/About/AboutPage";
 import TourPackagesPage from "./pages/Packages/TourPackagesPage";
 import TourPackageDetails from "./pages/Packages/TourPackageDetails";
+import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route index element={<TourPackagesPage/>}/>
           <Route path=":id" element={<TourPackageDetails/>}/>
         </Route>
+        <Route path="/contact-us" element={<ContactPage />}/>
       </Routes>
       <br />
       <footer>
