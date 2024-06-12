@@ -79,7 +79,7 @@ function Home() {
               Travel the world, one adventure at a time
             </p>
             <br />
-            <button className="home-content hidden" onClick={() => window.location.href="https://web.facebook.com/1netravelandtours"}>
+            <button className="home-content hidden" onClick={() => window.location.href="/contact-us"}>
               Start Your Journey Now
             </button>
           </div>
