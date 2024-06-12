@@ -63,7 +63,7 @@ function Home() {
         counter = 1;
       }
     }, 5000);
-  });
+  }, []);
   return (
     <>
       <div className="flex col gap32">
