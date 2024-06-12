@@ -104,7 +104,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="content flex cross-center main-between pad16 gap32 about1">
+        <div className="content flex cross-center main-between pad16 gap16 about1 wrap">
           <div className="text-section flex col">
             <span className="heading-l">TRAVEL MORE, WORRY LESS.</span>
             <span className="body-l color-major">We are a travel agency that provides diverse travel services to clients all across the country. We specialize in assisting you with all your travel needs, ensuring that your journeys are seamless and memorable. Whether you're planning a family vacation, a romantic getaway, a business trip, or an adventure expedition, our experienced team is dedicated to crafting personalized itineraries tailored to your preferences and budget.</span>
@@ -209,7 +209,7 @@ function Home() {
                Each package is thoughtfully planned to provide you with unique and immersive experiences, featuring top destinations, expert guides, and seamless itineraries.
             </span>
           </div>
-          <div className="flex">
+          <div className="flex wrap">
           <div className="tour-card">
                 <div className="tour-image">
                   <img src={taipei} alt="" />

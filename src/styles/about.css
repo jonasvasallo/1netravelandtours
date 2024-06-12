@@ -35,3 +35,30 @@
     border: 1px solid rgba(255,255,255,0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
+
+@media (max-width: 1366px){
+    .about{
+        width: 100%;
+    }
+    .text-section{
+        padding: 16px;
+        text-align: none;
+    }
+
+    .about .text-section .heading-l{
+        font-size: 24px;
+    }
+    .about .text-section .body-l{
+        font-size: 16px;
+    }
+
+    .image-section iframe{
+        width:90%;
+    }
+
+    #mission_vision{
+        border-radius: 0;
+    }
+
+    
+}

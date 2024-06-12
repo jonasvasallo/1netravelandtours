@@ -15,9 +15,11 @@
     object-fit: cover;
 }
 
-.contact{
-    background-image: url("../assets/hero1.jpg");
-    color: white;
-    padding: 150px;
+@media (max-width: 1366px){
+    #testimonials{
+        mask-image: none;
+    }
 }
+
+
 

@@ -13,7 +13,7 @@ const AboutPage = () => {
                     <spab className="body-l">We are a full-service travel agency dedicated to providing our clients with exceptional travel experiences. Our team of experienced professionals is passionate about travel and committed to delivering the highest level of customer service.</spab>
                 </div>
             </div>
-            <div className="content flex cross-start main-between pad32 gap32">
+            <div className="content flex cross-start main-between pad16 gap16 wrap">
                 <div className="text-section flex col">
                     <span className="heading-l">At 1NE Travel and Tours, we believe that travelling is more than just visiting new places.</span>
                     <span className="body-l">It's about immersing yourself in new cultures, experiencing unique adventures, and creating memories that will last a lifetime.</span>
