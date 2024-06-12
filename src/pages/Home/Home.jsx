@@ -39,6 +39,7 @@ import femalepic from '../../assets/img/femalepic.jpeg';
 
 import { useEffect } from "react";
 import Testimonial from "../../components/Testimonial";
+import { Link } from "react-router-dom";
 
 function Home() {
   useEffect(() => {
@@ -210,7 +211,8 @@ function Home() {
             </span>
           </div>
           <div className="flex wrap">
-          <div className="tour-card">
+            <Link to={`/tour-packages/TWTPTW`} style={{textDecoration: 'none'}}>
+              <div className="tour-card">
                 <div className="tour-image">
                   <img src={taipei} alt="" />
                 </div>
@@ -221,7 +223,9 @@ function Home() {
                   </p>
                 </div>
               </div>
-            <div className="tour-card">
+            </Link>
+            <Link to={`/tour-packages/CNSDTW`} style={{textDecoration: 'none'}}>
+              <div className="tour-card">
                 <div className="tour-image">
                   <img src={shanghai} alt="" />
                 </div>
@@ -232,7 +236,9 @@ function Home() {
                   </p>
                 </div>
               </div>
-            <div className="tour-card">
+            </Link>
+            <Link to={`/tour-packages/KRKSFW`} style={{textDecoration: 'none'}}>
+              <div className="tour-card">
                 <div className="tour-image">
                   <img src={korea} alt="" />
                 </div>
@@ -243,6 +249,7 @@ function Home() {
                   </p>
                 </div>
               </div>
+            </Link>
           </div>
         </div>
         <div className="content flex main-start cross-center col">
