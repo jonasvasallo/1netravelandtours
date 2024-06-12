@@ -1,0 +1,64 @@
+.tour-header{
+    height: 50vh;
+    background-image: url("../assets/img/1neteam.jpeg");
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-size: cover;
+}
+
+
+.tour-container{
+    flex-wrap: wrap;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 33.3333%;
+}
+
+.tour-container img{
+    width: 100%;
+    height: 200px;
+}
+
+.tour-container hr{
+    margin: 8px 0;
+}
+
+.tourdetails-header{
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: multiply;
+    mask-image: linear-gradient(to top, transparent, black 150px);
+    color: white;
+}
+
+.tourdetails-header .text-area{
+    max-width: 800px;
+    text-align: center;
+}
+
+.tourdetails-header img{
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: multiply;
+}
+
+@media (max-width: 1366px){
+    .tour-container{
+        width: 100%;
+        flex: none;
+    }
+}
+
+
