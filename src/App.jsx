@@ -4,6 +4,8 @@ import Home from "./pages/Home/Home";
 import "./flex.css";
 import { Route, Routes } from "react-router-dom";
 import AboutPage from "./pages/About/AboutPage";
+import TourPackagesPage from "./pages/Packages/TourPackagesPage";
+import TourPackageDetails from "./pages/Packages/TourPackageDetails";
 
 function App() {
   return (
@@ -12,6 +14,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/tour-packages">
+          <Route index element={<TourPackagesPage/>}/>
+          <Route path=":id" element={<TourPackageDetails/>}/>
+        </Route>
       </Routes>
       <br />
       <footer>
