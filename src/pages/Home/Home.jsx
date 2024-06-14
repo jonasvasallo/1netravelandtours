@@ -56,13 +56,17 @@ function Home() {
     hiddenElements.forEach((el) => observer.observe(el));
 
     var counter = 1;
-    setInterval(function () {
+    const intervalId = setInterval(function () {
+      console.log("this is happening");
       document.getElementById("radio" + counter).checked = true;
       counter++;
       if (counter > 4) {
         counter = 1;
       }
     }, 5000);
+
+    // Cleanup function to clear the interval
+    return () => clearInterval(intervalId);
   }, []);
   return (
     <>
