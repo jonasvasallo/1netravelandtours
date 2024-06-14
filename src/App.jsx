@@ -23,7 +23,7 @@ function App() {
       </Routes>
       <br />
       <footer>
-          Copyright © 2022 1NE Travel and Tours. All rights reserved.
+          Copyright © 2024 1NE Travel and Tours. All rights reserved.
       </footer>
     </>
   );
