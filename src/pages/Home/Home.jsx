@@ -79,9 +79,9 @@ function Home() {
               Travel the world, one adventure at a time
             </p>
             <br />
-            <button className="home-content hidden" onClick={() => window.location.href="/contact-us"}>
-              Start Your Journey Now
-            </button>
+            <Link to={'/contact-us'}>
+              <button className="home-content hidden">Start Your Journey Now</button>
+            </Link>
           </div>
           <div className="slider background-tint-dark">
             <div className="slides background-tint-dark">
